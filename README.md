@@ -2,13 +2,12 @@
 
 Art of Encrypting and Hiding data within images. I build an image **Steganography Software** from scratch using Python.
 
-I utlized skills of:
+I utilized skills of:
 * Encryption, 
 * Binary Conversion 
-* File Handeling 
-* Data Segration 
-* Data Manupliation
-
+* File Handling 
+* Data Segregation
+* Data Manipulation
 
 **Project Scope:**
 This project is developed for hiding information in any image file. The scope of the project is the implementation of steganography tools for hiding information includes any type of information file and image files and the path where the user wants to save Image and extruded file.
@@ -58,7 +57,6 @@ For decoding, we shall try to *reverse* the previous algorithm that we used to e
 
 The *new image(Encoded_Image.png)* looks **exacatly the same** as the *orignal image(GraceHoper.png)* to the human eyes. 
 The slight change in the pixel values is unnoticeable to the human eyes. It is **impossible** for a human to *distinguish between the two images.*
-Even for a computer, it will be *very difficult* to detect the image is a Steganography image if it *does not have access to the original image*, to compare the two against each other. 
-                                                                         
-                                                                    END
-####################################################################################################
+Even for a computer, it will be *very difficult* to detect the image as a Steganography image if it *does not have access to the original image*, to compare the two against each other. 
+
+                                                                               End 
