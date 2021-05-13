@@ -9,10 +9,10 @@ I utilized skills of:
 * Data Segregation
 * Data Manipulation
 
-**Project Scope:**
+# **Project Scope:**
 This project is developed for hiding information in any image file. The scope of the project is the implementation of steganography tools for hiding information includes any type of information file and image files and the path where the user wants to save Image and extruded file.
 
-**Methodology:**
+# **Methodology:**
 The user needs to run the application. The user has two tab options – encrypt and decrypt. If the user select encrypt, the application gives the screen to select an image file, information file, and option to save the image file. If the user select decrypt, the application gives the screen to select the image file and ask the path where the user wants to save the secrete file.
 This project has two methods – Encrypt and Decrypt.
 In encryption, the secrete information is hiding in any type of image file.
@@ -23,7 +23,7 @@ Graphical Representation
 
 ![image](https://user-images.githubusercontent.com/83566027/116849121-af43b580-ac0b-11eb-89a0-297039dbde9e.png)
 
-* **Encoding**
+# **Encoding**
 
 There are a lot of algorithms that can be used to encode data into the image, and in fact, you can also make one yourself. The one being used in this blog is easy to understand and implement, as well.
 
@@ -40,7 +40,7 @@ There are a lot of algorithms that can be used to encode data into the image, an
 ![image](https://user-images.githubusercontent.com/83566027/116850104-a48a2000-ac0d-11eb-9161-029a77e9012c.png)
 
 
-* **Decoding**
+# **Decoding**
 
 For decoding, we shall try to *reverse* the previous algorithm that we used to encode data.
 
@@ -50,10 +50,10 @@ For decoding, we shall try to *reverse* the previous algorithm that we used to e
 3) The bits are concatenated to a string, and with every three pixels, we get a byte of secret data, which means one character.
 4) Now, if the ninth value is even then we keep reading pixels three at a
 
-***Implementation of Steganography Software is as follows:***
+# ***My Implementation of Steganography Software is as follows:***
 ![image](https://user-images.githubusercontent.com/83566027/116848907-452b1080-ac0b-11eb-998b-2fbc763c4d96.png)
 
-* **Conclusion**
+# **Conclusion**
 
 The *new image(Encoded_Image.png)* looks **exacatly the same** as the *orignal image(GraceHoper.png)* to the human eyes. 
 The slight change in the pixel values is unnoticeable to the human eyes. It is **impossible** for a human to *distinguish between the two images.*
